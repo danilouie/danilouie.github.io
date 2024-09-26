@@ -4,7 +4,7 @@
 	"sourceRoot": "/Users/daniellelouie/Documents/Projects/Website/blog/daniellelouieblog",
 	"sources": [
 		"assets/scss/coder.scss",
-		"themes/hugo-coder/assets/scss/css/normalize.css",
+		"assets/scss/css/normalize.css",
 		"assets/scss/_variables.scss",
 		"assets/scss/font-awesome/fontawesome.scss",
 		"assets/scss/font-awesome/_functions.scss",
