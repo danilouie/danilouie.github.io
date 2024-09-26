@@ -844,11 +844,11 @@ body.colorscheme-dark .project-box {
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); }
 
 body.colorscheme-dark .project-box h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 10px; }
 
 body.colorscheme-dark .project-box p {
-  font-size: 1.75rem;
-  color: #c3c3c3; }
+  font-size: 2rem;
+  color: #717070; }
 
 /*# sourceMappingURL=coder-dark.css.map */
