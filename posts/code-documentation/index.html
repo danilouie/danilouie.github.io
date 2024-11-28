@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Code Documentation · Home
+</title>
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Danielle Louie">
+<meta name="description" content="Write once, reuse often: How do you build sustainable code? What are the best practices for documenting code?">
+<meta name="keywords" content="blog,developer,personal">
+<meta name="fediverse:creator" content="" />
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Code Documentation">
+  <meta name="twitter:description" content="Write once, reuse often: How do you build sustainable code? What are the best practices for documenting code?">
+
+<meta property="og:url" content="http://localhost:1313/posts/code-documentation/">
+  <meta property="og:site_name" content="Home">
+  <meta property="og:title" content="Code Documentation">
+  <meta property="og:description" content="Write once, reuse often: How do you build sustainable code? What are the best practices for documenting code?">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-11-20T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-11-20T00:00:00+00:00">
+    <meta property="article:tag" content="Documentation">
+      <meta property="og:see_also" content="http://localhost:1313/posts/working-with-dataframes/">
+      <meta property="og:see_also" content="http://localhost:1313/posts/interactive-viz-cb/">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/code-documentation/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+ 
+
+ 
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Home
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Tutorials</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact/CV</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/code-documentation/">
+              Code Documentation
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-11-20T00:00:00Z">
+                November 20, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="/authors/danielle-louie/">Danielle Louie</a>
+      <span class="separator">•</span>
+    <a href="/authors/magali-de-bruyn/">Magali De Bruyn</a></div>
+
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/coding/">Coding</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/documentation/">Documentation</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <hr>
+<h2 id="outline">
+  Outline
+  <a class="heading-link" href="#outline">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ol>
+<li><a href="#introduction" >Introduction</a></li>
+<li><a href="#what-is-code-doc" >What is Code Documentation</a>
+<ul>
+<li><a href="#why-code-doc" >Why do we need documentation?</a></li>
+</ul>
+</li>
+<li><a href="#slideshow" >Slideshow Link</a></li>
+<li><a href="#workshop" >Workshop</a></li>
+</ol>
+<hr>
+<p>Write out entire presentation like a blog and link slideshow, workshop (git)</p>
+<h1 id="introduction">
+  Introduction
+  <a class="heading-link" href="#introduction">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>What is code documentation? Why do we need it? What are the best practices for strong code documentation?</p>
+<p>Whether you are a seasoned programmer or just beginnining to learn how to code, coding documentation is a crucial skill to practice. The following tutorial breaks down these questions and explores different techniques for effectively documentating code. View the complete slide deck at the bottom of this page.</p>
+<h1 id="what-is-code-doc">
+  What is code documentation?
+  <a class="heading-link" href="#what-is-code-doc">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>Code documentation is the practice of writing out how code was built, the (intended) purpose of the code or product, how the code works, and how to interact with it. Essentially, an ideal code documentation explains the entire process from the creation of the code to its current utilization. It transforms code from a black box, where there are unclear explanations and unintuitive code, to a glass box, a project that is easy to follow along and understand.</p>
+<h3 id="why-code-doc">
+  Why do we need documentation?
+  <a class="heading-link" href="#why-code-doc">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Code documentation is <strong>key</strong> for collaboration, sharing code, and exchnage of knowledge. Often times, you will be working with people from different backgrounds and varying levels of programming experience. Having a well-documented code makes it easier for you to not only eplain your thought process in creating your code, but it also gives a useful resource for your audience to reference, empowering their ability to enter the technical space. Some general types of documentation (and their uses) include:</p>
+<ul>
+<li><strong>Internal</strong>: for developers within an organization</li>
+<li><strong>External</strong>: for people outside an organization involved with the program/project/code</li>
+<li><strong>Low-Level</strong>: within the source-code (where the code is written) and explains specific lines/parts
+<ul>
+<li>Examples: comments, docstrings.</li>
+</ul>
+</li>
+<li><strong>High-Level</strong>: the overall picture, such as the code architecure or design principles</li>
+<li><strong>Walkthrough</strong>: &ldquo;guided tour&rdquo; that identifies points of interest in the code.
+<ul>
+<li>Link between low-level and high-level documentation.</li>
+</ul>
+</li>
+</ul>
+<p>Code documentation also helps to make <em>you</em> a better coder. Often times, we may return to a piece of code that we had written months ago; it&rsquo;s highly unlikely that you completely remember your entire thought process when coding, which makes a well-written documentation a useful reminder for you.</p>
+<h1 id="slideshow">
+  Slideshow Link
+  <a class="heading-link" href="#slideshow">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>Here is the compiled slideshow! The link to the slide deck is <a href="https://docs.google.com/presentation/d/e/2PACX-1vRJLmoh3zjl1uBD4gLYsC_UOsagV2jxwoRuDMZPb6tb3FZpcaobpDeYLY-CSJQRBqAkmO36AwZrgmRM/pub?start=false&loop=false&delayms=3000" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRJLmoh3zjl1uBD4gLYsC_UOsagV2jxwoRuDMZPb6tb3FZpcaobpDeYLY-CSJQRBqAkmO36AwZrgmRM/embed?start=false&amp;loop=false&amp;delayms=3000" width=100% height="400" frameborder="0" scrolling="auto" allowfullscreen="allowfullscreen"></iframe>
+
+
+
+<hr>
+<h1 id="acknowledgements">
+  Acknowledgements
+  <a class="heading-link" href="#acknowledgements">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>This presentation was given as part of the <a href="https://dse.berkeley.edu/news/ecotech-connect" target="_blank" rel="noopener noreferrer">EcoTech Connect Discussion Series</a> hosted by DSE at UC Berkeley.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3 id="see-also-in-tutorials">
+        See also in Tutorials
+        <a class="heading-link" href="#see-also-in-tutorials">
+          <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+          <span class="sr-only">Link to heading</span>
+        </a>
+      </h3>
+      <nav>
+        <ul>
+        
+        
+          
+        
+          
+            <li>
+              <a href="/posts/working-with-dataframes/">Working with DataFrames</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="/posts/interactive-viz-cb/">Interactive Visualizations: Checkboxes</a>
+            </li>
+          
+        
+        </ul>
+      </nav>
+    
+  
+</section>
+
+
+        
+        
+        
+        
+        
+
+        
+        
+
+        <div class="navigation-links">
+          <div class="prev-post">
+            
+            
+              <a href="http://localhost:1313/posts/working-with-dataframes/">Previous: Working with DataFrames</a>
+            
+          </div>
+          <div class="next-post">
+            
+            
+              <span>Next: None</span>
+            
+          </div>
+        </div>
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     Danielle Louie 
+    
+    
+    
+    
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
