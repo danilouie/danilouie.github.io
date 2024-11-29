@@ -256,7 +256,7 @@ Feel free to type it out yourself, or copy the code down below.</p>
     <span class="sr-only">Link to heading</span>
   </a>
 </h1>
-<p>Let&rsquo;s create an example DataFrame for our visualization. Checkboxes are especially helpful for large DataFrames that contain a lot of categories. With interactive checkboxes, we can improve the visibility of our plot by controlling the amount of data that we see (based on their categories); we can also select different data to visualize comparisons for analysis. You may use the example DataFrame I created below, build your own, or implement it to your existing code.</p>
+<p>Let&rsquo;s create an example DataFrame for our visualization. Checkboxes are especially helpful for large DataFrames that contain a lot of categories. With interactive checkboxes, we can improve the visibility of our plot by controlling the amount of data that we see (based on their categories); we can also select different data to visualize comparisons for analysis. You may use the example DataFrame I created below, build your own, or implement it into your existing code.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Example DataFrame with Bird Species</span>
 </span></span><span class="line"><span class="cl"><span class="n">bird_species</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Eagle&#39;</span><span class="p">,</span> <span class="s1">&#39;Parrot&#39;</span><span class="p">,</span> <span class="s1">&#39;Owl&#39;</span><span class="p">,</span> <span class="s1">&#39;Penguin&#39;</span><span class="p">,</span> <span class="s1">&#39;Swan&#39;</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="n">random_birds</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">bird_species</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
@@ -269,7 +269,7 @@ Feel free to type it out yourself, or copy the code down below.</p>
     <span class="sr-only">Link to heading</span>
   </a>
 </h1>
-<p>Next, let&rsquo;s write dive into the main part of this tutorial: building interactivity.</p>
+<p>Next, let&rsquo;s dive into the main part of this tutorial: building interactivity.</p>
 <p>Let&rsquo;s first initiate the plot interactivity in a new code cell with:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Initiate interactivity</span>
 </span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ion</span><span class="p">()</span>
