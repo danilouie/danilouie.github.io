@@ -3,32 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://danilouie.github.io/</loc>
-    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://danilouie.github.io/posts/</loc>
-    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://danilouie.github.io/authors/</loc>
-    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://danilouie.github.io/categories/</loc>
-    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/posts/code-documentation/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://danilouie.github.io/categories/coding/</loc>
-    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://danilouie.github.io/authors/danielle-louie/</loc>
-    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/tags/documentation/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/authors/magali-de-bruyn/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/series/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/tags/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/series/tutorials/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -52,22 +82,7 @@
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://danilouie.github.io/series/</loc>
-    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/tags/</loc>
-    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://danilouie.github.io/categories/tutorial/</loc>
-    <lastmod>2024-09-16T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/series/tutorials/</loc>
     <lastmod>2024-09-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

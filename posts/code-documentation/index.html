@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <title>
   Code Documentation · Home
 </title>
@@ -23,7 +23,7 @@
   <meta name="twitter:title" content="Code Documentation">
   <meta name="twitter:description" content="Write once, reuse often: How do you build sustainable code? What are the best practices for documenting code?">
 
-<meta property="og:url" content="http://localhost:1313/posts/code-documentation/">
+<meta property="og:url" content="https://danilouie.github.io/posts/code-documentation/">
   <meta property="og:site_name" content="Home">
   <meta property="og:title" content="Code Documentation">
   <meta property="og:description" content="Write once, reuse often: How do you build sustainable code? What are the best practices for documenting code?">
@@ -33,13 +33,13 @@
     <meta property="article:published_time" content="2024-11-20T00:00:00+00:00">
     <meta property="article:modified_time" content="2024-11-20T00:00:00+00:00">
     <meta property="article:tag" content="Documentation">
-      <meta property="og:see_also" content="http://localhost:1313/posts/working-with-dataframes/">
-      <meta property="og:see_also" content="http://localhost:1313/posts/interactive-viz-cb/">
+      <meta property="og:see_also" content="https://danilouie.github.io/posts/working-with-dataframes/">
+      <meta property="og:see_also" content="https://danilouie.github.io/posts/interactive-viz-cb/">
 
 
 
 
-<link rel="canonical" href="http://localhost:1313/posts/code-documentation/">
+<link rel="canonical" href="https://danilouie.github.io/posts/code-documentation/">
 
 
 <link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -49,7 +49,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/coder.css" media="screen">
+  <link rel="stylesheet" href="/css/coder.min.0fa6c35edf1b07a4654148ca9381839210bc54dc2e8cf93e83d7cf267ed4f8fa.css" integrity="sha256-D6bDXt8bB6RlQUjKk4GDkhC8VNwujPk&#43;g9fPJn7U&#43;Po=" crossorigin="anonymous" media="screen" />
 
 
 
@@ -59,7 +59,7 @@
   
     
     
-    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+    <link rel="stylesheet" href="/css/coder-dark.min.bc03a975d4b871a4d182340cea6e28a6dc4767bcdff52318cc7616095c739163.css" integrity="sha256-vAOpddS4caTRgjQM6m4optxHZ7zf9SMYzHYWCVxzkWM=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -108,7 +108,7 @@
     <nav class="navigation">
   <section class="container">
     
-    <a class="navigation-title" href="http://localhost:1313/">
+    <a class="navigation-title" href="https://danilouie.github.io/">
       Home
     </a>
     
@@ -151,7 +151,7 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="http://localhost:1313/posts/code-documentation/">
+            <a class="title-link" href="https://danilouie.github.io/posts/code-documentation/">
               Code Documentation
             </a>
           </h1>
@@ -166,7 +166,7 @@
             </span>
             <span class="reading-time">
               <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              2-minute read
+              7-minute read
             </span>
           </div>
           <div class="authors">
@@ -205,11 +205,25 @@
 <li><a href="#why-code-doc" >Why do we need documentation?</a></li>
 </ul>
 </li>
+<li><a href="#types" >Types of Documentation</a>
+<ul>
+<li><a href="#des-doc" >Design Documents</a></li>
+<li><a href="#readme" >README</a></li>
+<li><a href="#license" >Licensing</a></li>
+<li><a href="#docstrings" >Docstrings</a></li>
+<li><a href="#comments" >Comments</a></li>
+<li><a href="#todo-fixme" >TODO and FIXME</a></li>
+<li><a href="#type-hinting" >Type Hinting</a></li>
+<li><a href="#naming" >Naming Conventions</a></li>
+<li><a href="#github-version" >GitHub Versioning</a></li>
+<li><a href="#config" >Configuration Files</a></li>
+</ul>
+</li>
+<li><a href="#oop" >Object-Oriented Programming</a></li>
 <li><a href="#slideshow" >Slideshow Link</a></li>
 <li><a href="#workshop" >Workshop</a></li>
 </ol>
 <hr>
-<p>Write out entire presentation like a blog and link slideshow, workshop (git)</p>
 <h1 id="introduction">
   Introduction
   <a class="heading-link" href="#introduction">
@@ -218,7 +232,7 @@
   </a>
 </h1>
 <p>What is code documentation? Why do we need it? What are the best practices for strong code documentation?</p>
-<p>Whether you are a seasoned programmer or just beginnining to learn how to code, coding documentation is a crucial skill to practice. The following tutorial breaks down these questions and explores different techniques for effectively documentating code. View the complete slide deck at the bottom of this page.</p>
+<p>Whether you are a seasoned programmer or just beginnining to learn how to code, coding documentation is a crucial skill to practice. The following tutorial breaks down the questions above and explores different techniques for effectively documentating code. View the complete slide deck at the bottom of this page.</p>
 <h1 id="what-is-code-doc">
   What is code documentation?
   <a class="heading-link" href="#what-is-code-doc">
@@ -226,7 +240,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h1>
-<p>Code documentation is the practice of writing out how code was built, the (intended) purpose of the code or product, how the code works, and how to interact with it. Essentially, an ideal code documentation explains the entire process from the creation of the code to its current utilization. It transforms code from a black box, where there are unclear explanations and unintuitive code, to a glass box, a project that is easy to follow along and understand.</p>
+<p>Code documentation is the practice of writing out how code was built, the purpose of the code or product, how the code works, and how to interact with it. Essentially, an ideal code documentation explains the entire process from the creation of the code to its current utilization. It transforms code from a black box, where there are unclear explanations and unintuitive code, to a glass box, a project that is easy to follow along and understand.</p>
 <h3 id="why-code-doc">
   Why do we need documentation?
   <a class="heading-link" href="#why-code-doc">
@@ -234,7 +248,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>Code documentation is <strong>key</strong> for collaboration, sharing code, and exchnage of knowledge. Often times, you will be working with people from different backgrounds and varying levels of programming experience. Having a well-documented code makes it easier for you to not only eplain your thought process in creating your code, but it also gives a useful resource for your audience to reference, empowering their ability to enter the technical space. Some general types of documentation (and their uses) include:</p>
+<p>Code documentation is <strong>key</strong> for collaboration, sharing code, and exchange of knowledge. Often, you will be working with people from different backgrounds and varying levels of programming experience. Having a well-documented code makes it easier for you to not only explain your thought process in creating your code, but it also gives a useful resource for your audience to reference, empowering their ability to enter the technical space. Some general types of documentation (and their uses) include:</p>
 <ul>
 <li><strong>Internal</strong>: for developers within an organization</li>
 <li><strong>External</strong>: for people outside an organization involved with the program/project/code</li>
@@ -250,7 +264,126 @@
 </ul>
 </li>
 </ul>
-<p>Code documentation also helps to make <em>you</em> a better coder. Often times, we may return to a piece of code that we had written months ago; it&rsquo;s highly unlikely that you completely remember your entire thought process when coding, which makes a well-written documentation a useful reminder for you.</p>
+<p>Code documentation also helps to make <em>you</em> a better coder. Often times, we may return to a piece of code that we had written months ago; it&rsquo;s highly unlikely that you completely remember your entire thought process when coding, which makes a well-written documentation a useful reminder for you. This practice can also help to keep your code cohesive as you build or revisit your code, preventing knowledge loss and technical debt.</p>
+<h1 id="types">
+  Types of Documentation
+  <a class="heading-link" href="#types">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>What are some techniques in documenting code?</p>
+<h3 id="des-doc">
+  Design Documents
+  <a class="heading-link" href="#des-doc">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Design documents are blueprints for code and are usually written before any actual coding. These planning documents, whether in the form of a written manual or a flowchart, contain information about the design process(es), workflow, and initial feedback for the creation of a product. Design documents are extremely useful to refer back to throughout the entire coding process, and are a good point of reference that should be continuously updated.</p>
+<p><img alt="Design doc" src="/images/code_doc/design_doc.png"></p>
+<h3 id="readme">
+  README
+  <a class="heading-link" href="#readme">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>READMEs are like &ldquo;recipes&rdquo;, where well-written ones typically contain these five components:</p>
+<ol>
+<li>What the project does - usually written as a summary in paragraph form.</li>
+<li>Why the project is useful - where the author of the code describes their goals and intended use for the code.</li>
+<li>How users can get started with the project - a set of instructions on what to download/install.</li>
+<li>Where users can get help with your project - where to obtain these sources of data or software needed to run the code.</li>
+<li>Who maintains and contributes to the project - all the people who worked on the project.
+READMEs may also include liabilities and policies for using the code in the form of licences, contribution guidelines, and code of conducts. READMEs typically come in the form of markdown files, which is displayed as <strong>README.MD</strong>.</li>
+</ol>
+<h3 id="license">
+  Licensing
+  <a class="heading-link" href="#license">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>A license tells what people can or cannot do with your code. Similar to READMEs, they can come in the form of text files (.txt) or markdown files (.md). It is always good practice to have a license for your code so that permission to use (or not use) the code is explicitly stated. There are many licenses on the web, such as the MIT License, that are commonly used.</p>
+<p><img alt="Licensing" src="/images/code_doc/licensing.png"></p>
+<h3 id="docstrings">
+  Docstrings
+  <a class="heading-link" href="#docstrings">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Docstrings are usually found right after defining a function and describe the purpose of the function. A well-written docstring defines the parameters (input/arguments), returns (output), and an explanation of how the function works. In Python, docstrings are written with three pairs of double-quotes: &ldquo;&ldquo;&ldquo;Docstring&rdquo;&rdquo;&rdquo;.</p>
+<p><img alt="Docstrings" src="/images/code_doc/docstrings.png"></p>
+<h3 id="comments">
+  Comments
+  <a class="heading-link" href="#comments">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Comments are more informal than docstrings and are more like &ldquo;annotations&rdquo; within the source code. They are mainly used for debugging, modifications, questions, and reminders, and usually refer to a specific line or lines of code. When collaborating, comments can also be used to leave brief feedback. Comments are usually written in these two forms: #Comment, //Comment.</p>
+<p><img alt="Comments" src="/images/code_doc/comments.png"></p>
+<h3 id="todo-fixme">
+  TODO and FIXME
+  <a class="heading-link" href="#todo-fixme">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>TODOs and FIXMEs are specified comments to indicate what needs to be done and what needs to be fixed. As defined by the names:</p>
+<ul>
+<li>TODOs are written to detail parts of code that need to be worked on eventually, such as adding features, cleaning up code, or refactoring code.</li>
+<li>FIXMEs are reminders of broken code that need to be fixed but not urgently.
+TODOs and FIXMEs should <strong>NOT</strong> be present in stable code as they are used to indicate large portions of code that have to be altered. If there are only small parts of code that need to be fixed, it is better practice to write a quick comment.</li>
+</ul>
+<h3 id="type-hinting">
+  Type Hinting
+  <a class="heading-link" href="#type-hinting">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Type hinting indicates the expected <a href="https://www.geeksforgeeks.org/data-types-in-programming/" target="_blank" rel="noopener noreferrer">data types</a> for function arguments and return values. This practice is extremely helpful for functions that have many arguments and outputs as it shows how data might be manipulated. Different coding languages have different requirements for type hinting. For instance, Java requires type hinting for all variables to run code whereas Python does not.</p>
+<p><img alt="Type hinting" src="/images/code_doc/type_hinting.png"></p>
+<h3 id="naming">
+  Naming Conventions
+  <a class="heading-link" href="#naming">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Having good naming conventions is important for organization of code. Properly naming files, variables, functions, classes, just to name a few examples, make it easier for you and collaborators to navigate through all components of a larger project. It is best practice to establish naming conventions beforehand to avoid confusion, and it is also helpful to document naming convention formats in documents such as READMEs.</p>
+<p><img alt="Naming conventions" src="/images/code_doc/naming_conventions.png"></p>
+<h3 id="github-version">
+  GitHub Versioning
+  <a class="heading-link" href="#github-version">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>In GitHub, leaving detailed commit messages or pull requests (PR) are useful for keeping track of progress while coding.</p>
+<p>Commit messages are key markers for specified points of progress, and they are especially significant when code needs to be reverted to a previous stage - therefore, having a detailed commit message is very important as it indicates the point of progress!</p>
+<p><img alt="versioning1" src="/images/code_doc/versioning1.png"></p>
+<p>Similarly, leaving messages for PR help collaborators to keep track of each other&rsquo;s work.</p>
+<p><img alt="versioning2" src="/images/code_doc/versioning2.png"></p>
+<h3 id="config">
+  Configuration Files
+  <a class="heading-link" href="#config">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Configuration files control the technical components of a programs, such as where data is stored and what features are selected. Think of these files as what controls the &ldquo;settings&rdquo; of the program, or in more technical terms, the operating system. These files typically list the needed build and dependencies (external libraries, packages, etc.) needed in order to properly run a program or software. You can find configuration fiiles in the following formats: YAML, XML, JSON, requirements.txt.</p>
+<h1 id="oop">
+  Object-Oriented Programming
+  <a class="heading-link" href="#oop">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>Object-oriented programming provides structure and legibility to code by grouping certain components together. Proper documentation makes it easier to work towards object-oriented programming because it makes it easier to see the data, functions, classes, and other parts of code that you are working with, as well as how each part interacts with one another. By having object-oriented code, debugging, reusability, and scalability become more accessible.</p>
 <h1 id="slideshow">
   Slideshow Link
   <a class="heading-link" href="#slideshow">
@@ -258,11 +391,20 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h1>
-<p>Here is the compiled slideshow! The link to the slide deck is <a href="https://docs.google.com/presentation/d/e/2PACX-1vRJLmoh3zjl1uBD4gLYsC_UOsagV2jxwoRuDMZPb6tb3FZpcaobpDeYLY-CSJQRBqAkmO36AwZrgmRM/pub?start=false&loop=false&delayms=3000" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>Here is the compiled slideshow used for the presentation! The link to the slide deck is <a href="https://docs.google.com/presentation/d/e/2PACX-1vRJLmoh3zjl1uBD4gLYsC_UOsagV2jxwoRuDMZPb6tb3FZpcaobpDeYLY-CSJQRBqAkmO36AwZrgmRM/pub?start=false&loop=false&delayms=3000" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRJLmoh3zjl1uBD4gLYsC_UOsagV2jxwoRuDMZPb6tb3FZpcaobpDeYLY-CSJQRBqAkmO36AwZrgmRM/embed?start=false&amp;loop=false&amp;delayms=3000" width=100% height="400" frameborder="0" scrolling="auto" allowfullscreen="allowfullscreen"></iframe>
 
 
 
+<h1 id="workshop">
+  Workshop
+  <a class="heading-link" href="#workshop">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p><a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" target="_blank" rel="noopener noreferrer">Clone</a> this <a href="https://github.com/danilouie/ecotech-documentation" target="_blank" rel="noopener noreferrer">GitHub repository</a> to add the workshop to your local machine. In the repository, you will find a script called <strong>docuvent.py</strong> - this script is filled with code that can be better documented! Work your way through this file, and once you feel satisfied, compare your answers to the <strong>answer-key.py</strong> file. Please note that your answers may differ, and there may be some things that you documented that were not captured in the answer key!</p>
+<p><em>Note: None of the scripts are expected to run. They are simply written to practice documentation.</em></p>
 <hr>
 <h1 id="acknowledgements">
   Acknowledgements
@@ -272,6 +414,7 @@
   </a>
 </h1>
 <p>This presentation was given as part of the <a href="https://dse.berkeley.edu/news/ecotech-connect" target="_blank" rel="noopener noreferrer">EcoTech Connect Discussion Series</a> hosted by DSE at UC Berkeley.</p>
+<hr>
 
       </div>
 
@@ -329,7 +472,7 @@
           <div class="prev-post">
             
             
-              <a href="http://localhost:1313/posts/working-with-dataframes/">Previous: Working with DataFrames</a>
+              <a href="https://danilouie.github.io/posts/working-with-dataframes/">Previous: Working with DataFrames</a>
             
           </div>
           <div class="next-post">
@@ -367,7 +510,7 @@
 
   
   
-  <script src="/js/coder.js"></script>
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
   
 
   
