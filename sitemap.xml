@@ -13,12 +13,37 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://danilouie.github.io/authors/</loc>
-    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/categories/blender/</loc>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/authors/cameron-dang/</loc>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://danilouie.github.io/categories/</loc>
-    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/authors/danielle-louie/</loc>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/projects/</loc>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/projects/salt-point-kelp-forest/</loc>
+    <lastmod>2024-12-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -28,11 +53,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://danilouie.github.io/categories/coding/</loc>
-    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/authors/danielle-louie/</loc>
     <lastmod>2024-11-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -148,11 +168,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://danilouie.github.io/authors/kobe-bilstad/</loc>
-    <lastmod>2024-08-08T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/projects/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
