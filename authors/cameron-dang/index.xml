@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cameron Dang on Home</title>
-    <link>https://danilouie.github.io/authors/cameron-dang/</link>
+    <link>http://localhost:1313/authors/cameron-dang/</link>
     <description>Recent content in Cameron Dang on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 04 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://danilouie.github.io/authors/cameron-dang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/authors/cameron-dang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Disappearance of the Kelp Forest</title>
-      <link>https://danilouie.github.io/projects/salt-point-kelp-forest/</link>
+      <link>http://localhost:1313/projects/salt-point-kelp-forest/</link>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://danilouie.github.io/projects/salt-point-kelp-forest/</guid>
+      <guid>http://localhost:1313/projects/salt-point-kelp-forest/</guid>
       <description>Outline Link to heading Introduction A Healthy Forest Immediate Impacts Urchin Barren Takeaways Introduction Link to heading Our project captures the loss of the kelp forest at Salt Point State Park, influenced by the disease-stricken populations of the Sunflower Sea Star, the sudden marine heat waves due to global warming and El Niño, and the overhunting of sea otters. The goal is to show the transformation from a healthy marine ecosystem to an urchin barren through three simple visualizations built with Blender, with each model capturing one of three stages.</description>
     </item>
   </channel>

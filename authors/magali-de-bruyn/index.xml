@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Magali De Bruyn on Home</title>
-    <link>https://danilouie.github.io/authors/magali-de-bruyn/</link>
+    <link>http://localhost:1313/authors/magali-de-bruyn/</link>
     <description>Recent content in Magali De Bruyn on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://danilouie.github.io/authors/magali-de-bruyn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/authors/magali-de-bruyn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Documentation</title>
-      <link>https://danilouie.github.io/posts/code-documentation/</link>
+      <link>http://localhost:1313/posts/code-documentation/</link>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://danilouie.github.io/posts/code-documentation/</guid>
+      <guid>http://localhost:1313/posts/code-documentation/</guid>
       <description>Outline Link to heading Introduction What is Code Documentation Why do we need documentation? Types of Documentation Design Documents README Licensing Docstrings Comments TODO and FIXME Type Hinting Naming Conventions GitHub Versioning Configuration Files Object-Oriented Programming Slideshow Link Workshop Introduction Link to heading What is code documentation? Why do we need it? What are the best practices for strong code documentation?&#xA;Whether you are a seasoned programmer or just beginnining to learn how to code, coding documentation is a crucial skill to practice.</description>
     </item>
   </channel>
