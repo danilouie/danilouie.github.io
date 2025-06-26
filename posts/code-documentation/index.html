@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <title>
   Code Documentation · Home
 </title>
@@ -23,7 +23,7 @@
   <meta name="twitter:title" content="Code Documentation">
   <meta name="twitter:description" content="Write once, reuse often: How do you build sustainable code? What are the best practices for documenting code?">
 
-<meta property="og:url" content="http://localhost:1313/posts/code-documentation/">
+<meta property="og:url" content="https://danilouie.github.io/posts/code-documentation/">
   <meta property="og:site_name" content="Home">
   <meta property="og:title" content="Code Documentation">
   <meta property="og:description" content="Write once, reuse often: How do you build sustainable code? What are the best practices for documenting code?">
@@ -33,13 +33,13 @@
     <meta property="article:published_time" content="2024-11-20T00:00:00+00:00">
     <meta property="article:modified_time" content="2024-11-20T00:00:00+00:00">
     <meta property="article:tag" content="Documentation">
-      <meta property="og:see_also" content="http://localhost:1313/posts/working-with-dataframes/">
-      <meta property="og:see_also" content="http://localhost:1313/posts/interactive-viz-cb/">
+      <meta property="og:see_also" content="https://danilouie.github.io/posts/working-with-dataframes/">
+      <meta property="og:see_also" content="https://danilouie.github.io/posts/interactive-viz-cb/">
 
 
 
 
-<link rel="canonical" href="http://localhost:1313/posts/code-documentation/">
+<link rel="canonical" href="https://danilouie.github.io/posts/code-documentation/">
 
 
 <link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -49,7 +49,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/coder.css" media="screen">
+  <link rel="stylesheet" href="/css/coder.min.097fb2f9a01626eadc041c0dd157cac4ff729428b002bae811fb7a901229edf1.css" integrity="sha256-CX&#43;y&#43;aAWJurcBBwN0VfKxP9ylCiwArroEft6kBIp7fE=" crossorigin="anonymous" media="screen" />
 
 
 
@@ -59,7 +59,7 @@
   
     
     
-    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+    <link rel="stylesheet" href="/css/coder-dark.min.bc03a975d4b871a4d182340cea6e28a6dc4767bcdff52318cc7616095c739163.css" integrity="sha256-vAOpddS4caTRgjQM6m4optxHZ7zf9SMYzHYWCVxzkWM=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -108,7 +108,7 @@
     <nav class="navigation">
   <section class="container">
     
-    <a class="navigation-title" href="http://localhost:1313/">
+    <a class="navigation-title" href="https://danilouie.github.io/">
       Home
     </a>
     
@@ -151,7 +151,7 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="http://localhost:1313/posts/code-documentation/">
+            <a class="title-link" href="https://danilouie.github.io/posts/code-documentation/">
               Code Documentation
             </a>
           </h1>
@@ -281,7 +281,7 @@
   </a>
 </h3>
 <p>Design documents are blueprints for code and are usually written before any actual coding. These planning documents, whether in the form of a written manual or a flowchart, contain information about the design process(es), workflow, and initial feedback for the creation of a product. Design documents are extremely useful to refer back to throughout the entire coding process, and are a good point of reference that should be continuously updated.</p>
-<p><img alt="Design doc" src="/images/code_doc/design_doc.png"></p>
+<p><img src="/images/code_doc/design_doc.png" alt="Design doc"></p>
 <h3 id="readme">
   README
   <a class="heading-link" href="#readme">
@@ -306,7 +306,7 @@ READMEs may also include liabilities and policies for using the code in the form
   </a>
 </h3>
 <p>A license tells what people can or cannot do with your code. Similar to READMEs, they can come in the form of text files (.txt) or markdown files (.md). It is always good practice to have a license for your code so that permission to use (or not use) the code is explicitly stated. There are many licenses on the web, such as the MIT License, that are commonly used.</p>
-<p><img alt="Licensing" src="/images/code_doc/licensing.png"></p>
+<p><img src="/images/code_doc/licensing.png" alt="Licensing"></p>
 <h3 id="docstrings">
   Docstrings
   <a class="heading-link" href="#docstrings">
@@ -315,7 +315,7 @@ READMEs may also include liabilities and policies for using the code in the form
   </a>
 </h3>
 <p>Docstrings are usually found right after defining a function and describe the purpose of the function. A well-written docstring defines the parameters (input/arguments), returns (output), and an explanation of how the function works. In Python, docstrings are written with three pairs of double-quotes: &ldquo;&ldquo;&ldquo;Docstring&rdquo;&rdquo;&rdquo;.</p>
-<p><img alt="Docstrings" src="/images/code_doc/docstrings.png"></p>
+<p><img src="/images/code_doc/docstrings.png" alt="Docstrings"></p>
 <h3 id="comments">
   Comments
   <a class="heading-link" href="#comments">
@@ -324,7 +324,7 @@ READMEs may also include liabilities and policies for using the code in the form
   </a>
 </h3>
 <p>Comments are more informal than docstrings and are more like &ldquo;annotations&rdquo; within the source code. They are mainly used for debugging, modifications, questions, and reminders, and usually refer to a specific line or lines of code. When collaborating, comments can also be used to leave brief feedback. Comments are usually written in these two forms: #Comment, //Comment.</p>
-<p><img alt="Comments" src="/images/code_doc/comments.png"></p>
+<p><img src="/images/code_doc/comments.png" alt="Comments"></p>
 <h3 id="todo-fixme">
   TODO and FIXME
   <a class="heading-link" href="#todo-fixme">
@@ -346,7 +346,7 @@ TODOs and FIXMEs should <strong>NOT</strong> be present in stable code as they a
   </a>
 </h3>
 <p>Type hinting indicates the expected <a href="https://www.geeksforgeeks.org/data-types-in-programming/" target="_blank" rel="noopener noreferrer">data types</a> for function arguments and return values. This practice is extremely helpful for functions that have many arguments and outputs as it shows how data might be manipulated. Different coding languages have different requirements for type hinting. For instance, Java requires type hinting for all variables to run code whereas Python does not.</p>
-<p><img alt="Type hinting" src="/images/code_doc/type_hinting.png"></p>
+<p><img src="/images/code_doc/type_hinting.png" alt="Type hinting"></p>
 <h3 id="naming">
   Naming Conventions
   <a class="heading-link" href="#naming">
@@ -355,7 +355,7 @@ TODOs and FIXMEs should <strong>NOT</strong> be present in stable code as they a
   </a>
 </h3>
 <p>Having good naming conventions is important for organization of code. Properly naming files, variables, functions, classes, just to name a few examples, make it easier for you and collaborators to navigate through all components of a larger project. It is best practice to establish naming conventions beforehand to avoid confusion, and it is also helpful to document naming convention formats in documents such as READMEs.</p>
-<p><img alt="Naming conventions" src="/images/code_doc/naming_conventions.png"></p>
+<p><img src="/images/code_doc/naming_conventions.png" alt="Naming conventions"></p>
 <h3 id="github-version">
   GitHub Versioning
   <a class="heading-link" href="#github-version">
@@ -365,9 +365,9 @@ TODOs and FIXMEs should <strong>NOT</strong> be present in stable code as they a
 </h3>
 <p>In GitHub, leaving detailed commit messages or pull requests (PR) are useful for keeping track of progress while coding.</p>
 <p>Commit messages are key markers for specified points of progress, and they are especially significant when code needs to be reverted to a previous stage - therefore, having a detailed commit message is very important as it indicates the point of progress!</p>
-<p><img alt="versioning1" src="/images/code_doc/versioning1.png"></p>
+<p><img src="/images/code_doc/versioning1.png" alt="versioning1"></p>
 <p>Similarly, leaving messages for PR help collaborators to keep track of each other&rsquo;s work.</p>
-<p><img alt="versioning2" src="/images/code_doc/versioning2.png"></p>
+<p><img src="/images/code_doc/versioning2.png" alt="versioning2"></p>
 <h3 id="config">
   Configuration Files
   <a class="heading-link" href="#config">
@@ -472,13 +472,13 @@ TODOs and FIXMEs should <strong>NOT</strong> be present in stable code as they a
           <div class="prev-post">
             
             
-              <a href="http://localhost:1313/posts/working-with-dataframes/">Previous: Working with DataFrames</a>
+              <a href="https://danilouie.github.io/posts/working-with-dataframes/">Previous: Working with DataFrames</a>
             
           </div>
           <div class="next-post">
             
             
-              <span>Next: None</span>
+              <a href="https://danilouie.github.io/posts/emoji-support/">Next: Emoji Support</a>
             
           </div>
         </div>
@@ -512,7 +512,7 @@ TODOs and FIXMEs should <strong>NOT</strong> be present in stable code as they a
 
   
   
-  <script src="/js/coder.js"></script>
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
   
 
   
@@ -521,9 +521,6 @@ TODOs and FIXMEs should <strong>NOT</strong> be present in stable code as they a
 
 
   
-  
-
-
 
   
 

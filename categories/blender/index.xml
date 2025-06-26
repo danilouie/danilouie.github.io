@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blender on Home</title>
-    <link>http://localhost:1313/categories/blender/</link>
+    <link>https://danilouie.github.io/categories/blender/</link>
     <description>Recent content in Blender on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 04 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/blender/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://danilouie.github.io/categories/blender/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Disappearance of the Kelp Forest</title>
-      <link>http://localhost:1313/projects/salt-point-kelp-forest/</link>
+      <link>https://danilouie.github.io/projects/salt-point-kelp-forest/</link>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/salt-point-kelp-forest/</guid>
-      <description>Outline Link to heading Introduction A Healthy Forest Immediate Impacts Urchin Barren Takeaways Introduction Link to heading Our project captures the loss of the kelp forest at Salt Point State Park, influenced by the disease-stricken populations of the Sunflower Sea Star, the sudden marine heat waves due to global warming and El Niño, and the overhunting of sea otters. The goal is to show the transformation from a healthy marine ecosystem to an urchin barren through three simple visualizations built with Blender, with each model capturing one of three stages.</description>
+      <guid>https://danilouie.github.io/projects/salt-point-kelp-forest/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;outline&#34;&gt;&#xA;  Outline&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#outline&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#intro&#34; &gt;Introduction&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#healthy&#34; &gt;A Healthy Forest&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#impacts&#34; &gt;Immediate Impacts&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#barren&#34; &gt;Urchin Barren&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#takeaway&#34; &gt;Takeaways&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;intro&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#intro&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Our project captures the loss of the kelp forest at Salt Point State Park, influenced by the disease-stricken populations of the Sunflower Sea Star, the sudden marine heat waves due to global warming and El Niño, and the overhunting of sea otters. The goal is to show the transformation from a healthy marine ecosystem to an urchin barren through three simple visualizations built with Blender, with each model capturing one of three stages. We were inspired to present this topic from a personal engagement with a park ranger during a visit to Salt Point State Park.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

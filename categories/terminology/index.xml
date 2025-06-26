@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terminology on Home</title>
-    <link>http://localhost:1313/categories/terminology/</link>
+    <link>https://danilouie.github.io/categories/terminology/</link>
     <description>Recent content in Terminology on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 11 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/terminology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://danilouie.github.io/categories/terminology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Sovereignty Terminology</title>
-      <link>http://localhost:1313/posts/data-sov-terms/</link>
+      <link>https://danilouie.github.io/posts/data-sov-terms/</link>
       <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/data-sov-terms/</guid>
-      <description>Outline Link to heading Introduction General Terms Indigenous Stewardship Introduction Link to heading As an Undergraduate Data Science Intern at DSE and a member of the Indigenous Environmental Stewardship team, I have learned extensively about the role and potential of technology, particularly data, in transforming environmental efforts. The growth of AI and machine learning presents numerous opportunities for improving efficiency and optimization of workflow, allowing for greater human efforts to be placed in developing and designing solutions rather than in repetitive and tedious data cleaning or classification.</description>
+      <guid>https://danilouie.github.io/posts/data-sov-terms/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;outline&#34;&gt;&#xA;  Outline&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#outline&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#introduction&#34; &gt;Introduction&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#general-terms&#34; &gt;General Terms&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#indig-steward&#34; &gt;Indigenous Stewardship&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introduction&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;As an Undergraduate Data Science Intern at &lt;a href=&#34;https://dse.berkeley.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;DSE&lt;/a&gt; and a member of the &lt;a href=&#34;https://dse.berkeley.edu/programs/co-design-technology-tribal-environmental-stewardship&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Indigenous Environmental Stewardship&lt;/a&gt; team, I have learned extensively about the role and potential of technology, particularly data, in transforming environmental efforts. The growth of AI and machine learning presents numerous opportunities for improving efficiency and optimization of workflow, allowing for greater human efforts to be placed in developing and designing solutions rather than in repetitive and tedious data cleaning or classification. AI can also improve ways to monitor biodiversity, predict changes in ecosystems, and allocate resources for sustainable efforts due to its capability in comparing Big Data efficiently.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

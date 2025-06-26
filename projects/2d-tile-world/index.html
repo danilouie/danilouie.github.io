@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <title>
   2D Tile-Based World Exploration Engine · Home
 </title>
@@ -23,7 +23,7 @@
   <meta name="twitter:title" content="2D Tile-Based World Exploration Engine">
   <meta name="twitter:description" content="Learn about terrain generation, user interactivity, and the use of grid systems to build a dynamic 2D tile-based world.">
 
-<meta property="og:url" content="http://localhost:1313/projects/2d-tile-world/">
+<meta property="og:url" content="https://danilouie.github.io/projects/2d-tile-world/">
   <meta property="og:site_name" content="Home">
   <meta property="og:title" content="2D Tile-Based World Exploration Engine">
   <meta property="og:description" content="Learn about terrain generation, user interactivity, and the use of grid systems to build a dynamic 2D tile-based world.">
@@ -36,7 +36,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:1313/projects/2d-tile-world/">
+<link rel="canonical" href="https://danilouie.github.io/projects/2d-tile-world/">
 
 
 <link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -46,7 +46,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/coder.css" media="screen">
+  <link rel="stylesheet" href="/css/coder.min.097fb2f9a01626eadc041c0dd157cac4ff729428b002bae811fb7a901229edf1.css" integrity="sha256-CX&#43;y&#43;aAWJurcBBwN0VfKxP9ylCiwArroEft6kBIp7fE=" crossorigin="anonymous" media="screen" />
 
 
 
@@ -56,7 +56,7 @@
   
     
     
-    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+    <link rel="stylesheet" href="/css/coder-dark.min.bc03a975d4b871a4d182340cea6e28a6dc4767bcdff52318cc7616095c739163.css" integrity="sha256-vAOpddS4caTRgjQM6m4optxHZ7zf9SMYzHYWCVxzkWM=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -105,7 +105,7 @@
     <nav class="navigation">
   <section class="container">
     
-    <a class="navigation-title" href="http://localhost:1313/">
+    <a class="navigation-title" href="https://danilouie.github.io/">
       Home
     </a>
     
@@ -148,7 +148,7 @@
       <header>
         <div class="project-title">
           <h1 class="title">
-            <a class="title-link" href="http://localhost:1313/projects/2d-tile-world/">
+            <a class="title-link" href="https://danilouie.github.io/projects/2d-tile-world/">
               2D Tile-Based World Exploration Engine
             </a>  
           </h1>
@@ -264,11 +264,11 @@
   </a>
 </h4>
 <p>The first goal in this project was world generation. The main objective of the map was that it had to be able to generate random rooms and hallways (with no dead ends), with every element reachable for exploration. In addition, the explorable parts of the map had to take up The map generation was prompted by a seed that the user would input, and the same seed should be able to generate the same map.</p>
-<p><img alt="map example" src="/images/cs61b/map.png"></p>
+<p><img src="/images/cs61b/map.png" alt="map example"></p>
 <p>My partner and I first focused on making sure that we were able to generate random rooms consistently (making sure that they were different for different seeds, and exactly the same for the same seeds). We then made sure that each rooms would generate two &ldquo;doors&rdquo;, which were indicators for where a hallway could connect to.</p>
-<p><img alt="room example" src="/images/cs61b/rooms.png"></p>
+<p><img src="/images/cs61b/rooms.png" alt="room example"></p>
 <p>Our last step in world generation was to create the hallways. Similar to the room generation, we coded for hallways to randomly generate (within a width of 1 tile). The code involved ensuring that all the &ldquo;doors&rdquo; for each room were connected; simultaneously, we prevented doors of the same room to be connected, as well ensuring that all rooms were connected as one overall map.</p>
-<p><img alt="hallway example" src="/images/cs61b/hallways.png"></p>
+<p><img src="/images/cs61b/hallways.png" alt="hallway example"></p>
 <h4 id="main-menu">
   Main Menu
   <a class="heading-link" href="#main-menu">
@@ -283,7 +283,7 @@
 <li>Quitting the game immediately.</li>
 </ul>
 <p>My partner and I found that this was the most difficult part of this second step. Tackling this problem required building a system that would continously draw the most recent map (if prompted to save), check if there was a previously saved world, and then if prompted in the Main Menu, would load the world exactly as it was last left.</p>
-<p><img alt="main menu" src="/images/cs61b/main_menu.png"></p>
+<p><img src="/images/cs61b/main_menu.png" alt="main menu"></p>
 <p>The last step was the most fun as it involved building interactivity between the user and the game. The main objectives were:</p>
 <ul>
 <li>Enabling movement of an avatar using &ldquo;WASD&rdquo; keyboard controls.</li>
@@ -296,7 +296,7 @@
 <li>Narrowing or widening the user&rsquo;s view of the map around the avatar based on keyboard controls (we used the letter &ldquo;G&rdquo;).</li>
 </ul>
 <p>In addition, we coded the game to use the keyboard control, &ldquo;Y&rdquo;, to allow the user to water grass tiles to flower tiles if the avatar was within 1 tile of the grass tiles. The counters for the grass and flowers at the middle, top of the game consistently reflected the game progress.</p>
-<p><img alt="playable world" src="/images/cs61b/playable_map.png"></p>
+<p><img src="/images/cs61b/playable_map.png" alt="playable world"></p>
 <h2 id="takeaways">
   Takeaways
   <a class="heading-link" href="#takeaways">
@@ -336,13 +336,13 @@
           <div class="prev-project">
             
             
-              <a href="http://localhost:1313/projects/wind-turbine/">Previous: Designing a Wind Turbine</a>
+              <a href="https://danilouie.github.io/projects/wind-turbine/">Previous: Designing a Wind Turbine</a>
             
           </div>
           <div class="next-project">
             
             
-              <a href="http://localhost:1313/projects/flood-risk-in-houston/">Next: Flood Risk in Houston</a>
+              <a href="https://danilouie.github.io/projects/flood-risk-in-houston/">Next: Flood Risk in Houston</a>
             
           </div>
         </div>
@@ -376,7 +376,7 @@
 
   
   
-  <script src="/js/coder.js"></script>
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
   
 
   
@@ -385,9 +385,6 @@
 
 
   
-  
-
-
 
   
 

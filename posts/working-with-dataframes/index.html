@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <title>
   Working with DataFrames · Home
 </title>
@@ -23,7 +23,7 @@
   <meta name="twitter:title" content="Working with DataFrames">
   <meta name="twitter:description" content="A beginner&#39;s guide to working with dataframes and commonly used functions.">
 
-<meta property="og:url" content="http://localhost:1313/posts/working-with-dataframes/">
+<meta property="og:url" content="https://danilouie.github.io/posts/working-with-dataframes/">
   <meta property="og:site_name" content="Home">
   <meta property="og:title" content="Working with DataFrames">
   <meta property="og:description" content="A beginner&#39;s guide to working with dataframes and commonly used functions.">
@@ -34,13 +34,13 @@
     <meta property="article:modified_time" content="2024-09-16T00:00:00+00:00">
     <meta property="article:tag" content="Pandas">
     <meta property="article:tag" content="DataFrames">
-      <meta property="og:see_also" content="http://localhost:1313/posts/code-documentation/">
-      <meta property="og:see_also" content="http://localhost:1313/posts/interactive-viz-cb/">
+      <meta property="og:see_also" content="https://danilouie.github.io/posts/code-documentation/">
+      <meta property="og:see_also" content="https://danilouie.github.io/posts/interactive-viz-cb/">
 
 
 
 
-<link rel="canonical" href="http://localhost:1313/posts/working-with-dataframes/">
+<link rel="canonical" href="https://danilouie.github.io/posts/working-with-dataframes/">
 
 
 <link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -50,7 +50,7 @@
 
   
   
-  <link rel="stylesheet" href="/css/coder.css" media="screen">
+  <link rel="stylesheet" href="/css/coder.min.097fb2f9a01626eadc041c0dd157cac4ff729428b002bae811fb7a901229edf1.css" integrity="sha256-CX&#43;y&#43;aAWJurcBBwN0VfKxP9ylCiwArroEft6kBIp7fE=" crossorigin="anonymous" media="screen" />
 
 
 
@@ -60,7 +60,7 @@
   
     
     
-    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+    <link rel="stylesheet" href="/css/coder-dark.min.bc03a975d4b871a4d182340cea6e28a6dc4767bcdff52318cc7616095c739163.css" integrity="sha256-vAOpddS4caTRgjQM6m4optxHZ7zf9SMYzHYWCVxzkWM=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -109,7 +109,7 @@
     <nav class="navigation">
   <section class="container">
     
-    <a class="navigation-title" href="http://localhost:1313/">
+    <a class="navigation-title" href="https://danilouie.github.io/">
       Home
     </a>
     
@@ -152,7 +152,7 @@
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="http://localhost:1313/posts/working-with-dataframes/">
+            <a class="title-link" href="https://danilouie.github.io/posts/working-with-dataframes/">
               Working with DataFrames
             </a>
           </h1>
@@ -274,7 +274,7 @@ Before following this tutorial, make sure you have Python and a source code edit
   </a>
 </h1>
 <p>As you may have noticed, there are a lot of rows in this dataframe, and simply typing out &ldquo;df&rdquo; only shows the first several and last several rows. The &ldquo;&hellip;&rdquo; indicates that there are rows not visible.</p>
-<p><img alt="minecraft wood raw" src="/images/dataframe_tutorial/minecraft_block_df.png"></p>
+<p><img src="/images/dataframe_tutorial/minecraft_block_df.png" alt="minecraft wood raw"></p>
 <p>You can see the total number of rows and columns at the bottom of the dataframe. In this case, we have 61 rows and 2 columns.</p>
 <h6 id="head-tail">
   Head and Tail
@@ -391,7 +391,7 @@ Before following this tutorial, make sure you have Python and a source code edit
 </span></span><span class="line"><span class="cl"><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34;&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)</span>
 </span></span></code></pre></div><p>You may have observed that we want to split our string by a space, which is indicated by the last example above. This should split the data into something that looks like the image below.</p>
-<p><img alt="stripped data" src="/images/dataframe_tutorial/strip.png"></p>
+<p><img src="/images/dataframe_tutorial/strip.png" alt="stripped data"></p>
 <p>How can we extract the first string? We can index into the first string with the following code:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)</span><span class="o">.</span><span class="n">str</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 </span></span></code></pre></div><p>Running the code above produces a series of our extracted data! Our final step is to add this series of data into a newly created column. To do that, we we can assign the code above into a newly created column, which we will call &ldquo;Material&rdquo;.</p>
@@ -449,14 +449,14 @@ Before following this tutorial, make sure you have Python and a source code edit
 </span></span><span class="line"><span class="cl"><span class="n">df_material</span> <span class="o">=</span> <span class="n">df_material</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;Material&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span> 
 </span></span><span class="line"><span class="cl"><span class="n">df_material</span>
 </span></span></code></pre></div><p>The code should produce a dataframe that looks like the one below.</p>
-<p><img alt="grouped dataframe" src="/images/dataframe_tutorial/grouped.png"></p>
+<p><img src="/images/dataframe_tutorial/grouped.png" alt="grouped dataframe"></p>
 <p>As you can see, all the columns are now replaced by integers, which represent the count of each block type. Let&rsquo;s <a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rename.html" target="_blank" rel="noopener noreferrer">rename</a> one of our columns to &ldquo;Count&rdquo; (it doesn&rsquo;t matter which one), and drop all the other ones. Feel free to follow my code exactly, or you can try it on your own!</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df_material</span> <span class="o">=</span> <span class="n">df_material</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">&#34;Name&#34;</span> <span class="p">:</span> <span class="s2">&#34;Count&#34;</span><span class="p">})</span>
 </span></span><span class="line"><span class="cl"><span class="c1"># axis=1 specifies that we are dropping columns</span>
 </span></span><span class="line"><span class="cl"><span class="n">df_material</span> <span class="o">=</span> <span class="n">df_material</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;Type&#39;</span><span class="p">,</span><span class="s1">&#39;Dummy&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">df_material</span>
 </span></span></code></pre></div><p>The dataframe printed should look like the one below.</p>
-<p><img alt="cleaned data" src="/images/dataframe_tutorial/cleaned_count.png"></p>
+<p><img src="/images/dataframe_tutorial/cleaned_count.png" alt="cleaned data"></p>
 <h1 id="arithmetics">
   Arithmetics
   <a class="heading-link" href="#arithmetics">
@@ -602,13 +602,13 @@ Before following this tutorial, make sure you have Python and a source code edit
           <div class="prev-post">
             
             
-              <a href="http://localhost:1313/posts/data-sov-terms/">Previous: Data Sovereignty Terminology</a>
+              <a href="https://danilouie.github.io/posts/data-sov-terms/">Previous: Data Sovereignty Terminology</a>
             
           </div>
           <div class="next-post">
             
             
-              <a href="http://localhost:1313/posts/code-documentation/">Next: Code Documentation</a>
+              <a href="https://danilouie.github.io/posts/code-documentation/">Next: Code Documentation</a>
             
           </div>
         </div>
@@ -642,7 +642,7 @@ Before following this tutorial, make sure you have Python and a source code edit
 
   
   
-  <script src="/js/coder.js"></script>
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
   
 
   
@@ -651,9 +651,6 @@ Before following this tutorial, make sure you have Python and a source code edit
 
 
   
-  
-
-
 
   
 

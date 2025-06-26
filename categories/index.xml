@@ -2,122 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Home</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://danilouie.github.io/categories/</link>
     <description>Recent content in Categories on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://danilouie.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blender</title>
-      <link>http://localhost:1313/categories/blender/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/blender/</guid>
+      <title>Syntax</title>
+      <link>https://danilouie.github.io/categories/syntax/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/syntax/</guid>
       <description></description>
     </item>
     <item>
-      <title>Coding</title>
-      <link>http://localhost:1313/categories/coding/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/coding/</guid>
+      <title>Theme Demo</title>
+      <link>https://danilouie.github.io/categories/theme-demo/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/theme-demo/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/categories/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/python/</guid>
+      <link>https://danilouie.github.io/categories/python/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sketchingpy</title>
+      <link>https://danilouie.github.io/categories/sketchingpy/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/sketchingpy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blender</title>
+      <link>https://danilouie.github.io/categories/blender/</link>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/blender/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>https://danilouie.github.io/categories/coding/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>http://localhost:1313/categories/tutorial/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/tutorial/</guid>
+      <link>https://danilouie.github.io/categories/tutorial/</link>
+      <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>Indigenous</title>
-      <link>http://localhost:1313/categories/indigenous/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/indigenous/</guid>
+      <link>https://danilouie.github.io/categories/indigenous/</link>
+      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/indigenous/</guid>
       <description></description>
     </item>
     <item>
       <title>Terminology</title>
-      <link>http://localhost:1313/categories/terminology/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/terminology/</guid>
+      <link>https://danilouie.github.io/categories/terminology/</link>
+      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/terminology/</guid>
       <description></description>
     </item>
     <item>
       <title>Visualizations</title>
-      <link>http://localhost:1313/categories/visualizations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/visualizations/</guid>
+      <link>https://danilouie.github.io/categories/visualizations/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/visualizations/</guid>
       <description></description>
     </item>
     <item>
       <title>Carto</title>
-      <link>http://localhost:1313/categories/carto/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/carto/</guid>
+      <link>https://danilouie.github.io/categories/carto/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/carto/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>http://localhost:1313/categories/r/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/r/</guid>
+      <link>https://danilouie.github.io/categories/r/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/r/</guid>
       <description></description>
     </item>
     <item>
       <title>RStudio</title>
-      <link>http://localhost:1313/categories/rstudio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/rstudio/</guid>
+      <link>https://danilouie.github.io/categories/rstudio/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/rstudio/</guid>
       <description></description>
     </item>
     <item>
       <title>IntelliJ</title>
-      <link>http://localhost:1313/categories/intellij/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/intellij/</guid>
+      <link>https://danilouie.github.io/categories/intellij/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/intellij/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:1313/categories/java/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/java/</guid>
+      <link>https://danilouie.github.io/categories/java/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/java/</guid>
       <description></description>
     </item>
     <item>
       <title>3D Printing</title>
-      <link>http://localhost:1313/categories/3d-printing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/3d-printing/</guid>
+      <link>https://danilouie.github.io/categories/3d-printing/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/3d-printing/</guid>
       <description></description>
     </item>
     <item>
       <title>CAD</title>
-      <link>http://localhost:1313/categories/cad/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cad/</guid>
+      <link>https://danilouie.github.io/categories/cad/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/cad/</guid>
       <description></description>
     </item>
     <item>
       <title>Solidworks</title>
-      <link>http://localhost:1313/categories/solidworks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/solidworks/</guid>
+      <link>https://danilouie.github.io/categories/solidworks/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/solidworks/</guid>
       <description></description>
     </item>
     <item>
       <title>ArcGIS Pro</title>
-      <link>http://localhost:1313/categories/arcgis-pro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/arcgis-pro/</guid>
+      <link>https://danilouie.github.io/categories/arcgis-pro/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/categories/arcgis-pro/</guid>
       <description></description>
     </item>
   </channel>

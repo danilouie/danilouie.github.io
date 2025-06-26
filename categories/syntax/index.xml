@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syntax on Home</title>
+    <link>https://danilouie.github.io/categories/syntax/</link>
+    <description>Recent content in Syntax on Home</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://danilouie.github.io/categories/syntax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emoji Support</title>
+      <link>https://danilouie.github.io/posts/emoji-support/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/posts/emoji-support/</guid>
+      <description>&lt;!-- put date in future so that it doesn&#39;t show this page when I try to publish the web--&gt;&#xA;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

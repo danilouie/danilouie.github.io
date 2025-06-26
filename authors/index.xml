@@ -2,80 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Home</title>
-    <link>http://localhost:1313/authors/</link>
+    <link>https://danilouie.github.io/authors/</link>
     <description>Recent content in Authors on Home</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://danilouie.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cameron Dang</title>
-      <link>http://localhost:1313/authors/cameron-dang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/cameron-dang/</guid>
+      <title>Lone Coder</title>
+      <link>https://danilouie.github.io/authors/lone-coder/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/authors/lone-coder/</guid>
       <description></description>
     </item>
     <item>
       <title>Danielle Louie</title>
-      <link>http://localhost:1313/authors/danielle-louie/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/danielle-louie/</guid>
+      <link>https://danilouie.github.io/authors/danielle-louie/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/authors/danielle-louie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cameron Dang</title>
+      <link>https://danilouie.github.io/authors/cameron-dang/</link>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/authors/cameron-dang/</guid>
       <description></description>
     </item>
     <item>
       <title>Magali De Bruyn</title>
-      <link>http://localhost:1313/authors/magali-de-bruyn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/magali-de-bruyn/</guid>
+      <link>https://danilouie.github.io/authors/magali-de-bruyn/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/authors/magali-de-bruyn/</guid>
       <description></description>
     </item>
     <item>
       <title>Kobe Bilstad</title>
-      <link>http://localhost:1313/authors/kobe-bilstad/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/kobe-bilstad/</guid>
+      <link>https://danilouie.github.io/authors/kobe-bilstad/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/authors/kobe-bilstad/</guid>
       <description></description>
     </item>
     <item>
       <title>Michelle Ngo</title>
-      <link>http://localhost:1313/authors/michelle-ngo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/michelle-ngo/</guid>
+      <link>https://danilouie.github.io/authors/michelle-ngo/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/authors/michelle-ngo/</guid>
       <description></description>
     </item>
     <item>
       <title>Aashirth Beesabathuni</title>
-      <link>http://localhost:1313/authors/aashirth-beesabathuni/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/aashirth-beesabathuni/</guid>
+      <link>https://danilouie.github.io/authors/aashirth-beesabathuni/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/authors/aashirth-beesabathuni/</guid>
       <description></description>
     </item>
     <item>
       <title>Ashna Valia</title>
-      <link>http://localhost:1313/authors/ashna-valia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/ashna-valia/</guid>
+      <link>https://danilouie.github.io/authors/ashna-valia/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/authors/ashna-valia/</guid>
       <description></description>
     </item>
     <item>
       <title>Dylan Sacks</title>
-      <link>http://localhost:1313/authors/dylan-sacks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/dylan-sacks/</guid>
+      <link>https://danilouie.github.io/authors/dylan-sacks/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/authors/dylan-sacks/</guid>
       <description></description>
     </item>
     <item>
       <title>Elina Morishita</title>
-      <link>http://localhost:1313/authors/elina-morishita/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/elina-morishita/</guid>
+      <link>https://danilouie.github.io/authors/elina-morishita/</link>
+      <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/authors/elina-morishita/</guid>
       <description></description>
     </item>
     <item>
       <title>Magali Ruer</title>
-      <link>http://localhost:1313/authors/magali-ruer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/magali-ruer/</guid>
+      <link>https://danilouie.github.io/authors/magali-ruer/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://danilouie.github.io/authors/magali-ruer/</guid>
       <description></description>
     </item>
   </channel>
