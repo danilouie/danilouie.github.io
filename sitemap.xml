@@ -13,66 +13,16 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://danilouie.github.io/authors/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/categories/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/tags/emoji/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/posts/emoji-support/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/tags/hugo/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/authors/lone-coder/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/tags/markdown/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/series/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/categories/syntax/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/tags/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/categories/theme-demo/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/series/theme-demo/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://danilouie.github.io/projects/california_energy_2022/</loc>
+    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/categories/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -94,11 +44,6 @@
   </url><url>
     <loc>https://danilouie.github.io/categories/sketchingpy/</loc>
     <lastmod>2025-05-14T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://danilouie.github.io/projects/interactive_eyeball/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -133,6 +78,16 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://danilouie.github.io/authors/magali-de-bruyn/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/series/</loc>
+    <lastmod>2024-11-20T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://danilouie.github.io/tags/</loc>
     <lastmod>2024-11-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
